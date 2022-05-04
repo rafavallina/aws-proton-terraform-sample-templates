@@ -53,6 +53,6 @@ schema:
           description: "EC2 instance type"
           type: string
           default: "c4.xlarge"
-        InstanceType:
+        AccountID:
           description: "ID of the AWS account where this environment is going to be provisioned"
           type: number
