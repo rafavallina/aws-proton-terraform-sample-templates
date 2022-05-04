@@ -49,3 +49,7 @@ output "CloudMapNamespaceId" {
 output "EcsHostSecurityGroupId" {
   value = aws_security_group.ecs_host_security_group.id
 }
+
+output "AccountID" {
+  value = var.environment.inputs.accountID
+}
