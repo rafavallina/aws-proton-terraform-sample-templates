@@ -55,4 +55,4 @@ schema:
           default: "c4.xlarge"
         AccountID:
           description: "ID of the AWS account where this environment is going to be provisioned"
-          type: number
+          type: string
