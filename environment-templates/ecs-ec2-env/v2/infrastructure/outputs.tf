@@ -51,5 +51,5 @@ output "EcsHostSecurityGroupId" {
 }
 
 output "AccountID" {
-  value = var.environment.inputs.accountID
+  value = var.environment.inputs.AccountID
 }
