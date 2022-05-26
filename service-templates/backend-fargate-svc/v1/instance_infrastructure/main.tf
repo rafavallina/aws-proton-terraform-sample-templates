@@ -28,7 +28,7 @@ variable "task_sizes" {
     small   = { cpu = 512, memory = 1024 }
     medium  = { cpu = 1024, memory = 2048 }
     large   = { cpu = 2048, memory = 4096 }
-    x-large = { cpu = 4096, memory = 8192 }
+    x-large = { cpu = 4096, memory = 4096 }
   }
 }
 
