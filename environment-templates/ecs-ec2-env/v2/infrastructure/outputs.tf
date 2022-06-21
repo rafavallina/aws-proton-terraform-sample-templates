@@ -2,6 +2,7 @@ output "ClusterName" {
   value = aws_ecs_cluster.cluster.name
 }
 
+
 output "ClusterArn" {
   value = aws_ecs_cluster.cluster.arn
 }
@@ -51,5 +52,5 @@ output "EcsHostSecurityGroupId" {
 }
 
 output "AccountID" {
-  value = var.environment.inputs.accountID
+  value = var.environment.inputs.AccountID
 }
